@@ -202,6 +202,11 @@
         <categoryLink id="76f0-e586-9085-7a9b-abe2-f940-d8f5-c586" name="Small Fortifications" hidden="false" targetId="abe2-f940-d8f5-c586" primary="false"/>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="13a9-1b75-7598-5c79" name="Infantry" hidden="false">
+      <categoryLinks>
+        <categoryLink id="37a0-30fd-c453-65d6" name="Infantry" hidden="false" targetId="eef2-a246-ea91-8718" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <sharedRules>
     <rule id="0207-ab3e-9917-ed40" name="Area Bombardment (Weapon, Value)" hidden="false">
