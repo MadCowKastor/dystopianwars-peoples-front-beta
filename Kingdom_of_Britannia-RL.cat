@@ -3135,6 +3135,783 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry id="8c77-1792-08d9-5bd1" name="Brunel Class Mobile Airfield" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d08a-ad30-d958-22fc" name="Brunel Class Mobile Airfield" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="0560-4787-cc6f-e496" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="DR" typeId="b627-0ae7-77ae-af94">6</characteristic>
+            <characteristic name="CR" typeId="7cb5-a210-0d98-7358">9</characteristic>
+            <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+            <characteristic name="HP" typeId="e025-2c15-1504-e36e">9</characteristic>
+            <characteristic name="AP" typeId="a688-ba94-12bb-b548">7</characteristic>
+            <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">7</characteristic>
+            <characteristic name="CC" typeId="a717-a7af-0bd3-411b">4</characteristic>
+            <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">6</characteristic>
+            <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+            <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=3&quot;</characteristic>
+            <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c64-2709-8757-d4fb" name="Brunel P/S Turret Battery (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+          <characteristics>
+            <characteristic name="RB1" typeId="802b-9ea8-6006-c636">9</characteristic>
+            <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
+            <characteristic name="RB3" typeId="2409-fa52-7467-403a">6</characteristic>
+            <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">4</characteristic>
+            <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="273f-4392-b785-4e07" name="Brunel Fore Guns (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+          <characteristics>
+            <characteristic name="RB1" typeId="802b-9ea8-6006-c636">15</characteristic>
+            <characteristic name="RB2" typeId="4dac-6125-5cee-b031">13</characteristic>
+            <characteristic name="RB3" typeId="2409-fa52-7467-403a">9</characteristic>
+            <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">7</characteristic>
+            <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">Fixed Fore</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1a30-534d-6b1a-b4db" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="caa2-8ce2-5428-579c" name="Carrier (8, 2x4 Wing)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b5-3413-c6b3-41ed" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85f-8c3a-16dd-920f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2c33-6bfa-a13c-de0a" name="Carrier (X)" hidden="false" targetId="6941-f613-1cd1-82d0" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3354-e552-7cb2-7367" name="Strategic Value (75)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5283-28dd-9193-449b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f85-4659-dfcf-f81e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d84a-c154-da00-b356" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="99a8-b35a-3828-9f25" name="Spotter (24&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab2-fc85-22ea-b78c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f896-c107-1cb2-e3ec" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2c83-169b-bf64-6d16" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2dba-2980-a55b-f8ff" name="Devastating (Fore Guns)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0819-25a6-a4dc-8837" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22f5-c99b-985b-6350" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f130-9abc-bdbe-890b" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="eee7-2502-cc62-f5a1" name="Piercing (Turret Battery)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb94-829e-6aaa-a9e4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d330-f5b4-dc83-6e45" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="53b5-9a4b-d538-5c54" name="Piercing (Weapon)" hidden="false" targetId="cd93-6c68-ecf4-d944" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0560-4787-cc6f-e496" name="Stoic Crew" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="671b-2ed1-e4e0-91c9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4149-718c-8500-851b" name="Brunel Class Mobile Airfield (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">6</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">9</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">9</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">7</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">7</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">4</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">6</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=3&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7134-e538-c3e1-a932" name="Internal Generator" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0b-9f42-bb5a-9733" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c392-7fea-00f1-ec79" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3296-39ae-206f-9235" name="Shield (2)" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="4cab-4824-2c93-cc67" name="Guardian (X, Y, Protective=Z)" hidden="false" targetId="6fa6-4cb7-3ddb-e00c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="53f8-c7aa-2163-b719" name="Pulse (16&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4df-0c3a-8576-c3da" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="07ed-2263-c15e-e37b" name="Pulse (X&quot;) Generator" hidden="false" targetId="61cd-f361-c178-8090" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2e44-cc46-1c43-5c2d" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+        <entryLink id="36b2-3120-a73d-ad0f" name="Armoured Large/Massive Attachment" hidden="false" collective="false" import="true" targetId="8bd8-6240-6ca1-7368" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a96-c07a-1e4c-8e33" name="Sovereign Class Landship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0a4e-5603-f3b5-044e" name="Sovereign Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="e593-4513-1cb9-419b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+            <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+            <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+            <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+            <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
+            <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
+            <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+            <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+            <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+            <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+            <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8796-d824-d5fb-8ea6" name="Sovereign P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+          <characteristics>
+            <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+            <characteristic name="RB2" typeId="4dac-6125-5cee-b031">9</characteristic>
+            <characteristic name="RB3" typeId="2409-fa52-7467-403a">8</characteristic>
+            <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
+            <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e037-70eb-8b5b-7bff" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e593-4513-1cb9-419b" name="Stoic Crew" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5256-be33-2522-e712" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9fe4-738f-4d8a-260b" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c558-61d1-9831-c25c" name="Internal Guardian (2, 12&quot;, Protective=1) Generator" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af76-b7a0-1234-5814" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="839c-8c97-84cc-6df2" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="510f-11a8-c780-0c25" name="Guardian (X, Y, Protective=Z)" hidden="false" targetId="6fa6-4cb7-3ddb-e00c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5323-4b24-0556-9cdb" name="Security Posts (2)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d966-26a4-8349-a767" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85f4-f4ff-bbd9-ccab" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="f1d8-4629-c63d-391d" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="718c-884d-6a0f-bc0d" name="Mk" hidden="false" collective="false" import="true" defaultSelectionEntryId="8af4-c6a2-cd3b-7288">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3187-545a-e4f9-def3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="665a-9b22-5e22-d0ea" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8af4-c6a2-cd3b-7288" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="f374-8111-6670-dba0" name="Combat Coordinator (KoB, 12&quot;, Die Hard Attitude)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a87c-9d8c-9a85-6ac2" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="482a-72ea-d094-8cee" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1733-7be7-dbea-f11e" name="Combat Coordinator (Model, X&quot;, MAR)" hidden="false" targetId="32c8-2ce4-4a22-ed1c" type="rule"/>
+                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry id="81e4-00a8-332c-fea4" name="Die Hard Attitude" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e90b-d74c-0a42-c493" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="675e-77f6-2a63-38f8" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="ffd0-6126-5b5b-c6b3" name="Diehard Attitude" hidden="false" targetId="55e4-cdac-b930-a0a2" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry id="b8b9-4689-5af5-f8e9" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="bf9f-c29c-10b4-33e6" name="Sovereign Mortar Battery (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                  <characteristics>
+                    <characteristic name="RB1" typeId="802b-9ea8-6006-c636">-</characteristic>
+                    <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
+                    <characteristic name="RB3" typeId="2409-fa52-7467-403a">9</characteristic>
+                    <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">7</characteristic>
+                    <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">270</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="f2ca-d91c-cfd1-4f97" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09bc-1184-93d9-b0e6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d45-642d-0c0c-be73" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1887-0633-c0c2-f070" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8a11-7bcc-bd42-7b2b" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3253-69f6-ed19-20bf" name="Sovereign Turrets (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                  <characteristics>
+                    <characteristic name="RB1" typeId="802b-9ea8-6006-c636">7</characteristic>
+                    <characteristic name="RB2" typeId="4dac-6125-5cee-b031">5</characteristic>
+                    <characteristic name="RB3" typeId="2409-fa52-7467-403a">3</characteristic>
+                    <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">-</characteristic>
+                    <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">180° Offset</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="7536-bb26-a6b7-38bb" name="Piercing (Turret)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83be-4736-7c17-c3d4" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f03c-9db0-9aec-44ab" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="f6ed-b6a2-f2a1-1fd4" name="Piercing (Weapon)" hidden="false" targetId="cd93-6c68-ecf4-d944" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="91da-8ce9-556d-6274" name="Armoured Large/Massive Attachment" hidden="false" collective="false" import="true" targetId="8bd8-6240-6ca1-7368" type="selectionEntryGroup"/>
+        <entryLink id="3207-9ae3-fbe9-15ea" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="224e-f883-7025-ce14" name="Royal Oak Class Landship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="50dc-0988-cf80-8f0d" name="Royal Oak P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+          <characteristics>
+            <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+            <characteristic name="RB2" typeId="4dac-6125-5cee-b031">9</characteristic>
+            <characteristic name="RB3" typeId="2409-fa52-7467-403a">8</characteristic>
+            <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
+            <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3046-23d0-6ad9-84aa" name="Royal Oak Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+          <characteristics>
+            <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+            <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+            <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+            <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+            <characteristic name="AP" typeId="a688-ba94-12bb-b548">7</characteristic>
+            <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">6</characteristic>
+            <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+            <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+            <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+            <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+            <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Elite</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8a5d-a258-1eb2-c839" name="Royal Oak Heavy Turret (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+          <characteristics>
+            <characteristic name="RB1" typeId="802b-9ea8-6006-c636">15</characteristic>
+            <characteristic name="RB2" typeId="4dac-6125-5cee-b031">13</characteristic>
+            <characteristic name="RB3" typeId="2409-fa52-7467-403a">10</characteristic>
+            <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">8</characteristic>
+            <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">360</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a62a-0c56-5f4d-7aaa" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e261-da6c-3c02-3124" name="External Guardian (3, 12&quot;, Protective=2) Generator" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02fa-1136-3060-9b4d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6377-d543-97d9-e1f7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d9be-6b8b-3204-297b" name="Guardian (X, Y, Protective=Z)" hidden="false" targetId="6fa6-4cb7-3ddb-e00c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d819-e067-8d5b-2428" name="Security Posts (2)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dad1-4863-72b1-2ea0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dda3-b3a0-367a-c53b" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a84e-07e7-76b6-528d" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c3e8-659f-aea4-820a" name="Redoutable" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e756-5e6d-de0f-68b0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="737b-3eb0-1fa9-0d39" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="4660-5fb9-499d-67e5" name="Redoutable (Weapon/Stat)" hidden="false" targetId="73da-2483-66e5-3834" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5514-a7f7-9db4-de4e" name="Spotter (24&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="115f-9b44-1fa0-24a2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c93c-1e08-ad91-be31" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0e6a-66dd-4696-762d" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="48ab-2651-a63f-a264" name="Strategic Value (50)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0712-af39-e953-3fc7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a9c-fced-8c26-d6a7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7835-4516-c4c7-e24e" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c08e-5162-09cd-37c6" name="Piercing (Heavy Turret)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b2b-004b-ce5b-9214" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35e5-eba0-ed6b-297f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7cf7-8db9-7d75-af81" name="Piercing (Weapon)" hidden="false" targetId="cd93-6c68-ecf4-d944" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="24d1-59f9-8346-495a" name="Armoured Large/Massive Attachment" hidden="false" collective="false" import="true" targetId="8bd8-6240-6ca1-7368" type="selectionEntryGroup"/>
+        <entryLink id="4398-10e5-01c3-7611" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eaf4-32ed-501b-2993" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="038a-4c81-93ea-8e7c" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95a4-0129-9ba8-280b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+            <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+            <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+            <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+            <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+            <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+            <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+            <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+            <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+            <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+            <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="606e-73e9-0782-426d" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+          <characteristics>
+            <characteristic name="RB1" typeId="802b-9ea8-6006-c636">8</characteristic>
+            <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
+            <characteristic name="RB3" typeId="2409-fa52-7467-403a">4</characteristic>
+            <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">2</characteristic>
+            <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4008-44d0-d012-26ef" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="48dc-a84e-4208-85d4" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08e0-4285-e17e-1088" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a14b-ab5a-0378-4c06" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="62f6-cc7f-5719-071c" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="95a4-0129-9ba8-280b" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5476-8091-e23f-41aa" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d3c6-3211-f7c0-f26e" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ba9c-0129-336c-9f25" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="25d8-5511-4d50-6b58" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2908-73a2-deb6-0a49" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2486-9bb6-f4a2-002e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="48db-7eb4-bc4b-2cdc" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2b4c-ed2a-0ea8-6f9a" name="Mk" hidden="false" collective="false" import="true" defaultSelectionEntryId="017e-f04f-2877-a6c7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3827-b092-679e-8f8f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e69f-0944-8573-fa43" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4996-ae1f-0d54-98b4" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="8ff3-8bf8-32f7-1bde" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f8-0188-e282-63d0" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c6-9034-6b1a-87af" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="628f-975a-6ddf-4ad1" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="151a-b4c9-85e4-5e10" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2abc-3654-b87f-7f1a" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                  <characteristics>
+                    <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+                    <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
+                    <characteristic name="RB3" typeId="2409-fa52-7467-403a">6</characteristic>
+                    <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
+                    <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">270 Fore</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="ff04-8bae-1919-f086" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dce-9860-2ba6-397f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9a7-dfdf-e684-505a" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="495c-56db-b347-a0c2" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="017e-f04f-2877-a6c7" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntries>
+                <selectionEntry id="4399-92c5-5143-4e77" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a8-0191-9862-4008" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f6f-c0f7-eca9-f760" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="a56a-3eb2-28e2-afb4" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f91c-b2d7-e0b0-5036" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f994-14eb-4659-5e3f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e264-c878-5a98-4000" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="6607-6037-75a4-0d5c" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="de11-2790-4935-2896" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+        <entryLink id="e074-aa98-f28f-dc69" name="Armoured Large/Massive Attachment" hidden="false" collective="false" import="true" targetId="8bd8-6240-6ca1-7368" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6c44-6543-f9b6-c1f2" name="Steward Class Heavy Tank" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="87e0-06bb-1964-93cd" name="New CategoryLink" hidden="false" targetId="968c-f111-6b84-674f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7fc8-0037-b19d-9ed8" name="Steward" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d18-0750-3693-6de0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5dc-4fa4-0114-245e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="1d5d-a2d6-a42c-747f" name="Steward" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">7&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">4</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">4</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">2</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Medium Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0214-9e35-4d10-f22b" name="Steward Heavy Assault Cannon (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">9</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">8</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">-</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">90° Fore</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="64bc-29b3-785e-0698" name="Steward P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">6</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">4</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">3</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">-</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="5325-6755-a5e7-0a94" name="Attachment (KoB, Armoured Medium, 1)" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73e1-1020-1dac-c001" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f1-7647-c0fa-b9c4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f4be-379c-468c-357a" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9826-b992-317e-43c9" name="Piercing (Heavy Assault Cannon)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8172-faad-500f-474f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0903-133d-702d-b898" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0866-082f-6af1-1ccd" name="Piercing (Weapon)" hidden="false" targetId="cd93-6c68-ecf4-d944" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6be9-0a19-42cb-8700" name="Internal Guardian (2, 8&quot;, Protective=1) Generator" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eef-3008-b61a-499d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5718-b9e2-4982-7ade" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8296-c6df-1e87-da86" name="Guardian (X, Y, Protective=Z)" hidden="false" targetId="6fa6-4cb7-3ddb-e00c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="95.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="da51-1a20-a948-ab75" name="Armoured Medium Attachment" hidden="false" collective="false" import="true" targetId="4bb1-b0df-3fa5-e998" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="8d62-fffb-b3fb-d0c9" name="Piercing (Torpedoes)" hidden="false" collective="true" import="true" type="upgrade">
@@ -3725,16 +4502,691 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e87-cc95-faf9-f032" type="max"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry id="2a15-7828-d5a7-08d8" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+          <profiles>
+            <profile id="4d5d-6b94-0441-79ca" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95a4-0129-9ba8-280b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c014-bce2-3ac6-9ce6" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">8</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">4</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">2</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="2015-a901-5b48-2b33" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="afaf-0ea9-8b2a-1953" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4707-55d8-19a2-73a7" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c533-02bc-1c52-6703" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7898-7331-f7cb-871f" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7b86-236f-12b1-a3f0" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c830-91b6-e623-02e6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b3ff-fb37-6d84-6434" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a05f-9317-5718-1de9" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6cb4-f0af-fe1d-b9b0" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a42c-8940-22a0-ce81" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="793d-747e-0366-5fd1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="79c0-27d0-36f2-6fb6" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0030-8331-aac2-ec10" name="Mk" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2b7-918d-16b9-e750" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5da-e661-0789-8f18" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f0c8-08c4-3924-6d45" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="1aed-f1c7-2abf-c5bd" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a6-2ee7-bc99-dc35" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c36-b212-e4d8-5435" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="5734-0cc2-80e9-e221" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ce90-a498-638f-0930" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="3b75-121e-aa46-7f85" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                      <characteristics>
+                        <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+                        <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
+                        <characteristic name="RB3" typeId="2409-fa52-7467-403a">6</characteristic>
+                        <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
+                        <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">270 Fore</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="0896-1841-4e30-11c2" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9d5-98b9-c262-027d" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09dc-4943-3ae1-1a49" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="85b6-3bdc-2973-12a4" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="15b4-2287-57b7-13b1" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="1054-82fb-4d04-71cb" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b0-50d5-eab5-37d1" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a6e-f31f-26d2-ccce" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="4e7b-fd21-dbfb-d2b1" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="6859-981c-da12-5703" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fb4-148f-d5bf-69fe" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4c-7bba-e1f1-f222" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="5de1-7e07-a5da-1705" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="6d1e-4e62-2819-53a0" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="4bb1-b0df-3fa5-e998" name="Armoured Medium Attachment" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a62-d4c5-47e8-a787" type="max"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry id="adc9-b9f1-8696-efcf" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+          <profiles>
+            <profile id="9de7-d650-181f-bfd3" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95a4-0129-9ba8-280b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6c5a-74c5-ac6c-724d" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">8</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">4</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">2</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="4455-5306-37d8-0dd0" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="472c-3025-18a2-3284" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c0-aaed-4bf7-33dd" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3998-ea8e-e3ad-6250" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c523-77f8-6ee5-6ab4" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2f6f-0399-5b74-ac0d" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f14-11b9-df17-c0b9" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="90f0-ac79-0a51-949c" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="d553-d6d5-9bbf-5262" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6c0d-f543-9dd5-3d25" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce71-2fdc-eab3-6d76" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da28-c47e-462c-0fa1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3dde-b6a7-bd87-90d7" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="43af-7bbb-9364-787c" name="Mk" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72d7-7681-dc36-05b9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d2d-e920-8a00-0ecb" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="c2f7-aac9-73e9-c270" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="4bbe-6b34-a489-73f2" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a6f-bae0-28b6-624b" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ff-d954-bc14-c2b5" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="ba2d-7376-1156-4110" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="40df-d894-5dea-9d05" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="a262-a69e-143b-341d" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                      <characteristics>
+                        <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+                        <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
+                        <characteristic name="RB3" typeId="2409-fa52-7467-403a">6</characteristic>
+                        <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
+                        <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">270 Fore</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="edf7-c202-e8c8-c714" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63e-6d36-f586-ee3f" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b47-2491-e863-c574" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="bbd5-3d81-05ba-d6be" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0c76-3a0e-8a2f-2352" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="f97b-ec17-c93a-ff3b" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9000-5bf3-b286-dd14" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5809-7573-20e1-ef4a" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="f8f1-a201-2db6-eadf" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="9fe0-1fc5-744b-2ffe" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b009-59df-b49b-0ddb" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c9e-1de2-1e9f-dcc3" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="766f-f43f-00be-d232" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="b1ca-5d66-e6ed-0237" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="90.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a42b-1bb5-29eb-911d" name="Steward" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="be10-b4b3-30e0-b129" name="Steward" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">7&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">4</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">4</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">2</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Medium Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a639-fe39-bda1-8631" name="Steward Heavy Assault Cannon (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">9</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">8</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">-</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">90° Fore</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="abc1-74c8-3e81-cdd0" name="Steward P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">6</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">4</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">3</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">-</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="b7e5-a718-4e31-4469" name="Attachment (KoB, Armoured Medium, 1)" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa9f-777b-fbe3-3e18" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1607-0a6c-fef8-7c9d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b59d-e618-e099-85bd" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ee8a-92dd-0022-5af8" name="Piercing (Heavy Assault Cannon)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d9a-8635-32c9-560f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d51c-29d3-e2cf-ad33" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d604-012f-beca-1966" name="Piercing (Weapon)" hidden="false" targetId="cd93-6c68-ecf4-d944" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df3e-356c-c2a8-18c5" name="Internal Guardian (2, 8&quot;, Protective=1) Generator" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31c2-abe6-3229-d032" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a28f-93be-cbfb-1ba6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5af1-7420-5d56-9578" name="Guardian (X, Y, Protective=Z)" hidden="false" targetId="6fa6-4cb7-3ddb-e00c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="95.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="cf2f-66e0-c2cf-4326" name="Armoured Small Attachment" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3283-396e-0e90-ac12" type="max"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry id="b0ff-9369-9d72-3eec" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+          <profiles>
+            <profile id="285a-52d2-0d4b-4d87" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95a4-0129-9ba8-280b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="904e-ec58-0f4a-ed38" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">8</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">4</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">2</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="f5e3-e210-4bef-c505" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="f5e8-fcd7-627b-1888" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbd-dfcb-2fad-0e47" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c3b-b2be-944d-a3d4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1832-4041-4d96-012e" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="781d-0e87-4456-521e" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfec-ad37-0e2f-f429" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b8b7-5edd-2ec3-d539" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5e52-eff9-319a-798c" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2f37-9105-b8b1-a221" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da80-d1a2-9bc9-c707" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca8a-ea56-b9af-0db6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1447-ad76-f2f8-8a6f" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d9a1-2811-3dac-1f98" name="Mk" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fac6-ee39-eedd-4e69" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1505-942b-52f3-9c7a" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9893-14cb-d340-98cc" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="86b4-16f3-17fc-0432" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa88-b376-74ec-9bba" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b593-ae9e-252e-a345" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="1895-feb6-5431-a9b2" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1ff3-ff1e-1ed3-62d3" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="5244-3165-cc5b-9c40" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                      <characteristics>
+                        <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+                        <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
+                        <characteristic name="RB3" typeId="2409-fa52-7467-403a">6</characteristic>
+                        <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
+                        <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">270 Fore</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="3ee6-dddd-b3e9-b50c" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62c8-0792-13e1-03f2" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0272-d62d-8e87-d795" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="6abb-0079-cd33-47bc" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f4d3-a490-c300-a894" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="0fed-ed54-345c-d0fe" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f961-9032-1b04-7638" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dec-8fff-89ea-00c4" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="e9c9-5b29-3257-83fe" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8416-b1a8-37d0-f1ff" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ab0-3b58-bafb-7c0b" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d871-2714-512e-fbce" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="aeed-ef15-66c9-a64b" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="8893-ad14-7a3b-7e15" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
