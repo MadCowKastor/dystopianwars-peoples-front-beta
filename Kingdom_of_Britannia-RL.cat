@@ -4435,6 +4435,23 @@
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="0a08-a8c6-6331-453a" name="Engineering Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                          <profiles>
+                            <profile id="4acb-a989-2ce9-c68a" name="Engineer Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                              <characteristics>
+                                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
+                                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
+                                <characteristic name="MV" typeId="b607-e989-521e-4868">5&quot;, Min=0&quot;</characteristic>
+                                <characteristic name="HP" typeId="e025-2c15-1504-e36e">3</characteristic>
+                                <characteristic name="AP" typeId="a688-ba94-12bb-b548">3</characteristic>
+                                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">1</characteristic>
+                                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">-</characteristic>
+                                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">-</characteristic>
+                                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Tiny Armoured Repair Infantry</characteristic>
+                                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
                           <costs>
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="5.0"/>
                           </costs>
@@ -4480,10 +4497,210 @@
             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="35.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ccb3-9d12-d503-5390" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d12b-2144-7789-fbc3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ca04-a9b5-cd4f-cc07" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95a4-0129-9ba8-280b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6a84-2536-a490-a92e" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">8</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">4</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">2</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="8b24-fd48-5e94-3d5c" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="73e8-daeb-beea-9335" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78e0-8bec-f9fc-0c29" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="893e-bd8a-064e-0c29" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9283-7b5d-3c67-6dbe" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="84de-fa8f-5193-045a" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c675-f829-aa5a-f9e7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6532-cfb6-5e17-5817" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="f47e-081b-3b34-5242" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cdb0-65b0-6c04-b21b" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="222a-3c34-9cb8-2bf0" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abfc-47ec-5c43-e77c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b936-6cdd-e1f1-8c09" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2dc8-6c44-f8bb-f2b0" name="Mk" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb24-9d2a-f5a3-e389" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b28-9386-c8b0-137c" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="507b-1c5a-35bb-dba5" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="9873-2a1d-7461-c1e0" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd41-feeb-1294-0fbd" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69fa-b65b-443c-124e" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="8fa7-12ee-69e3-a662" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1319-502d-b947-e1bd" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="5112-8574-9aac-b710" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                      <characteristics>
+                        <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+                        <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
+                        <characteristic name="RB3" typeId="2409-fa52-7467-403a">6</characteristic>
+                        <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
+                        <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">270 Fore</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="d16b-9430-958d-a076" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce8-893e-fc99-aea3" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0437-026f-ecbb-da9b" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="c3c3-710f-7a87-70af" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4753-bf50-fe31-adc7" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="8d08-da3d-8d2a-c82f" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6808-3b6a-ab33-3355" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbf6-b670-b820-d632" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="81ce-5d4b-550f-8721" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b8a4-3d9e-f8cb-9193" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfdb-6669-d049-7ad0" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a097-13b7-4bcb-16d1" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="17d3-f2d2-e333-35fa" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="0dd5-37a0-8aff-7b83" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="90.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink id="cca3-9792-a1b6-fd9b" name="Armoured Small Attachment" hidden="false" collective="false" import="true" targetId="cf2f-66e0-c2cf-4326" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
       </costs>
@@ -5612,6 +5829,23 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                   </constraints>
                   <selectionEntries>
                     <selectionEntry id="4b1c-5055-321b-58c4" name="Engineer Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="b6a1-ca96-e17c-1839" name="Engineer Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                          <characteristics>
+                            <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
+                            <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
+                            <characteristic name="MV" typeId="b607-e989-521e-4868">5&quot;, Min=0&quot;</characteristic>
+                            <characteristic name="HP" typeId="e025-2c15-1504-e36e">3</characteristic>
+                            <characteristic name="AP" typeId="a688-ba94-12bb-b548">3</characteristic>
+                            <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">1</characteristic>
+                            <characteristic name="CC" typeId="a717-a7af-0bd3-411b">-</characteristic>
+                            <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">-</characteristic>
+                            <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Tiny Armoured Repair Infantry</characteristic>
+                            <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                            <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
                       </costs>
@@ -5887,6 +6121,23 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                   </constraints>
                   <selectionEntries>
                     <selectionEntry id="5930-1853-43d9-9e18" name="Engineer Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="9511-0ddc-103d-4eda" name="Engineer Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                          <characteristics>
+                            <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
+                            <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
+                            <characteristic name="MV" typeId="b607-e989-521e-4868">5&quot;, Min=0&quot;</characteristic>
+                            <characteristic name="HP" typeId="e025-2c15-1504-e36e">3</characteristic>
+                            <characteristic name="AP" typeId="a688-ba94-12bb-b548">3</characteristic>
+                            <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">1</characteristic>
+                            <characteristic name="CC" typeId="a717-a7af-0bd3-411b">-</characteristic>
+                            <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">-</characteristic>
+                            <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Tiny Armoured Repair Infantry</characteristic>
+                            <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                            <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
                       </costs>
@@ -6131,6 +6382,23 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                       </constraints>
                       <selectionEntries>
                         <selectionEntry id="1ee6-d271-8947-48be" name="Engineer Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
+                          <profiles>
+                            <profile id="6b24-4c8a-cab2-47c4" name="Engineer Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                              <characteristics>
+                                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
+                                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
+                                <characteristic name="MV" typeId="b607-e989-521e-4868">5&quot;, Min=0&quot;</characteristic>
+                                <characteristic name="HP" typeId="e025-2c15-1504-e36e">3</characteristic>
+                                <characteristic name="AP" typeId="a688-ba94-12bb-b548">3</characteristic>
+                                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">1</characteristic>
+                                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">-</characteristic>
+                                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">-</characteristic>
+                                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Tiny Armoured Repair Infantry</characteristic>
+                                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
                           <costs>
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="10.0"/>
                           </costs>
@@ -7594,6 +7862,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
       </constraints>
       <selectionEntries>
         <selectionEntry id="6c1c-ae6d-8fdc-1a15" name="Dominion Class Support Cruiser" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="878b-9161-bd21-1d39" type="max"/>
+          </constraints>
           <profiles>
             <profile id="5e65-9ff6-2309-9120" name="Dominion" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
               <modifiers>
@@ -7744,6 +8015,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
           </costs>
         </selectionEntry>
         <selectionEntry id="8f3f-e97f-330a-77ba" name="Bastion Class Escort" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd28-d2fb-e95f-73b6" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="0474-d27b-4eca-6861" name="Bastion" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -7978,6 +8252,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
       </constraints>
       <selectionEntries>
         <selectionEntry id="e3d8-32e9-279f-c0cc" name="Dominion Class Support Cruiser" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8586-5a37-a22a-8883" type="max"/>
+          </constraints>
           <profiles>
             <profile id="aa8d-ef84-900c-8348" name="Dominion" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
               <modifiers>
@@ -8134,209 +8411,12 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e87-cc95-faf9-f032" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2a15-7828-d5a7-08d8" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="181b-4324-6653-eaff" name="Baronet" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d443-e647-7bf0-182d" type="max"/>
+          </constraints>
           <profiles>
-            <profile id="4d5d-6b94-0441-79ca" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95a4-0129-9ba8-280b" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
-                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
-                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
-                <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
-                <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
-                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
-                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
-                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
-                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
-                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
-                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="c014-bce2-3ac6-9ce6" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
-              <characteristics>
-                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">8</characteristic>
-                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
-                <characteristic name="RB3" typeId="2409-fa52-7467-403a">4</characteristic>
-                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">2</characteristic>
-                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <categoryLinks>
-            <categoryLink id="2015-a901-5b48-2b33" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="afaf-0ea9-8b2a-1953" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4707-55d8-19a2-73a7" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c533-02bc-1c52-6703" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="7898-7331-f7cb-871f" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7b86-236f-12b1-a3f0" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c830-91b6-e623-02e6" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="b3ff-fb37-6d84-6434" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
-                  <characteristics>
-                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
-                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
-                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
-                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
-                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
-                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
-                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
-                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
-                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
-                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
-                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="a05f-9317-5718-1de9" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
-                  <characteristics>
-                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
-                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
-                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
-                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
-                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
-                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
-                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
-                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
-                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
-                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
-                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6cb4-f0af-fe1d-b9b0" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a42c-8940-22a0-ce81" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="793d-747e-0366-5fd1" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="79c0-27d0-36f2-6fb6" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="0030-8331-aac2-ec10" name="Mk" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2b7-918d-16b9-e750" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5da-e661-0789-8f18" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="f0c8-08c4-3924-6d45" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="1aed-f1c7-2abf-c5bd" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a6-2ee7-bc99-dc35" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c36-b212-e4d8-5435" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="5734-0cc2-80e9-e221" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="ce90-a498-638f-0930" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="3b75-121e-aa46-7f85" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
-                      <characteristics>
-                        <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
-                        <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
-                        <characteristic name="RB3" typeId="2409-fa52-7467-403a">6</characteristic>
-                        <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
-                        <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">270 Fore</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <selectionEntries>
-                    <selectionEntry id="0896-1841-4e30-11c2" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9d5-98b9-c262-027d" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09dc-4943-3ae1-1a49" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="85b6-3bdc-2973-12a4" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="15b4-2287-57b7-13b1" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="1054-82fb-4d04-71cb" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b0-50d5-eab5-37d1" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a6e-f31f-26d2-ccce" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="4e7b-fd21-dbfb-d2b1" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="6859-981c-da12-5703" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fb4-148f-d5bf-69fe" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b4c-7bba-e1f1-f222" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="5de1-7e07-a5da-1705" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="6d1e-4e62-2819-53a0" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
-          </entryLinks>
-          <costs>
-            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="90.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="353b-0dae-ac9b-f106" name="Baronet" hidden="false" collective="false" import="true" type="model">
-          <profiles>
-            <profile id="2352-5821-32dc-a69e" name="Baronet" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+            <profile id="aba8-5d6c-460c-7a41" name="Baronet" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
               <characteristics>
                 <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
                 <characteristic name="CR" typeId="7cb5-a210-0d98-7358">6</characteristic>
@@ -8353,48 +8433,48 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="cc80-27ce-5404-2040" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="f56e-e90a-d822-4fed" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed38-02c5-b38f-ed4b" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc6b-2846-2e54-a947" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fb4-bca7-d959-a422" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67e2-ae34-6dcf-0e99" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="3f08-4f6d-4d92-e24b" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+                <infoLink id="3938-3db1-0ec2-301c" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4ad9-82ad-aa92-2b90" name="Combat Deployment (KoB Infantry, 1)" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="2f42-2072-ecfb-08ad" name="Combat Deployment (KoB Infantry, 1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6ea-20a1-3e8a-73d1" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b8b-b93b-5ee5-279f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72db-b52c-62ea-397a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="924a-b8fc-ad16-2a72" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e89b-1e6a-33c5-a1b5" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                <infoLink id="4246-f46a-fdd2-7f8b" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry id="2517-096c-f2de-4078" name="Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="2e17-f804-856d-6c71" name="Infantry" hidden="false" collective="false" import="true" type="upgrade">
                   <selectionEntries>
-                    <selectionEntry id="ad5f-0466-1c98-e2e5" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
+                    <selectionEntry id="2b8d-1d0c-ffa3-2abb" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d16c-db57-0b31-ead7" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e2a-5f4e-44fa-3662" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db83-f5bf-235f-0763" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c65-ecbb-27c2-53c8" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="957c-a670-8e60-f0fc" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
+                        <infoLink id="30c6-a995-baa5-b5eb" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="5890-415b-8b47-5387" name="Difficult Target" hidden="false" collective="true" import="true" type="upgrade">
+                    <selectionEntry id="93fe-b4a3-de12-4e89" name="Difficult Target" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c421-9caa-1af3-2788" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e99a-e73c-ad88-7a4c" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a900-f33b-5d4b-6ab3" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfc4-c281-ebbc-b5f3" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="9e8c-4910-1bfc-a7de" name="Difficult Target" hidden="false" targetId="e9bf-df2e-b612-0319" type="rule"/>
+                        <infoLink id="6263-67a8-a235-61b3" name="Difficult Target" hidden="false" targetId="e9bf-df2e-b612-0319" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -8402,15 +8482,15 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="e86a-db64-1fd0-f2ef" name="Infantry Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="75a4-8d3b-60e6-5c1e">
+                    <selectionEntryGroup id="e05e-1b79-dddd-7b4e" name="Infantry Type" hidden="false" collective="false" import="true">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ced6-3739-0b16-ad9b" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f7-b448-7b87-aa64" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30f-623b-8250-bbc2" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed97-8b0b-21df-c6cf" type="min"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry id="75a4-8d3b-60e6-5c1e" name="Reconnaissance Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="0bed-e08a-7db1-e3bb" name="Reconnaissance Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
                           <profiles>
-                            <profile id="64d9-17d8-3fe8-022f" name="Reconnaissance Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                            <profile id="db27-32c7-687f-4c0d" name="Reconnaissance Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
                               <characteristics>
                                 <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
                                 <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
@@ -8427,23 +8507,23 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             </profile>
                           </profiles>
                           <selectionEntryGroups>
-                            <selectionEntryGroup id="ec69-75fa-53a3-3b90" name="Spotter" hidden="false" collective="false" import="true">
+                            <selectionEntryGroup id="8006-3d9a-2b65-d4c4" name="Spotter" hidden="false" collective="false" import="true">
                               <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ee2-87e3-4854-d1b7" type="max"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3043-3f2f-3f47-e451" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5374-f9b3-c1a3-d0f4" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce32-f78c-4fa0-f998" type="min"/>
                               </constraints>
                               <selectionEntries>
-                                <selectionEntry id="f49e-942e-9d4a-72a1" name="Spotter (16&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                                <selectionEntry id="78cb-7467-3097-0a3f" name="Spotter (16&quot;)" hidden="false" collective="false" import="true" type="upgrade">
                                   <infoLinks>
-                                    <infoLink id="c37f-7b80-976a-9eb6" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                                    <infoLink id="7a1b-48f4-7582-c4cd" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry id="28dc-1066-4d06-b4b5" name="Spotter (24&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                                <selectionEntry id="10a3-2161-2d52-9c91" name="Spotter (24&quot;)" hidden="false" collective="false" import="true" type="upgrade">
                                   <infoLinks>
-                                    <infoLink id="b631-4e7d-8ee6-b483" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                                    <infoLink id="58e2-8566-d2c4-5287" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Points" typeId="4075-4471-be6e-fc5a" value="5.0"/>
@@ -8456,9 +8536,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="30d9-d542-c92e-c15c" name="Line Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="07e6-1f21-a4cd-05b6" name="Line Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
                           <profiles>
-                            <profile id="7082-4568-35ce-d087" name="Line Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                            <profile id="74f7-d6f8-ece7-5c11" name="Line Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
                               <characteristics>
                                 <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
                                 <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
@@ -8478,9 +8558,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="5.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="dfc6-656a-df1a-49c0" name="Assault Infantry Company" hidden="false" collective="false" import="true" type="model">
+                        <selectionEntry id="6265-d3ec-8f9b-6dad" name="Assault Infantry Company" hidden="false" collective="false" import="true" type="model">
                           <profiles>
-                            <profile id="cb8d-c519-aa50-1048" name="Assault Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                            <profile id="53dd-30b8-10b8-8638" name="Assault Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
                               <characteristics>
                                 <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
                                 <characteristic name="CR" typeId="7cb5-a210-0d98-7358">5</characteristic>
@@ -8497,13 +8577,13 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             </profile>
                           </profiles>
                           <selectionEntries>
-                            <selectionEntry id="aaaf-8803-c076-d618" name="Sustained Assault (2)" hidden="false" collective="true" import="true" type="upgrade">
+                            <selectionEntry id="02db-5966-2349-e37b" name="Sustained Assault (2)" hidden="false" collective="true" import="true" type="upgrade">
                               <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fffb-2258-1d8d-5aaf" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bfd-8bf9-ba6f-afab" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fa-085e-2e4e-9b7a" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c2f-e05e-f82e-55eb" type="max"/>
                               </constraints>
                               <infoLinks>
-                                <infoLink id="f3b6-ef8b-d985-2604" name="Sustained Assault (X)" hidden="false" targetId="ee4b-5351-cd62-66f2" type="rule"/>
+                                <infoLink id="6fac-afb4-14d8-935b" name="Sustained Assault (X)" hidden="false" targetId="ee4b-5351-cd62-66f2" type="rule"/>
                               </infoLinks>
                               <costs>
                                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -8514,7 +8594,24 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="7421-7061-29a5-aa8e" name="Engineering Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="c7e3-ab65-3abd-acba" name="Engineering Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                          <profiles>
+                            <profile id="e233-f47f-5ad6-6071" name="Engineer Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                              <characteristics>
+                                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
+                                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
+                                <characteristic name="MV" typeId="b607-e989-521e-4868">5&quot;, Min=0&quot;</characteristic>
+                                <characteristic name="HP" typeId="e025-2c15-1504-e36e">3</characteristic>
+                                <characteristic name="AP" typeId="a688-ba94-12bb-b548">3</characteristic>
+                                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">1</characteristic>
+                                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">-</characteristic>
+                                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">-</characteristic>
+                                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Tiny Armoured Repair Infantry</characteristic>
+                                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
                           <costs>
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="5.0"/>
                           </costs>
@@ -8531,25 +8628,25 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3ed5-d4f2-6acc-2d0b" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="90d1-b124-2476-c2d5" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b978-aae7-f90f-e0b4" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04b6-2eb8-66f8-598d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d23a-03e7-788c-5ef5" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc9e-7187-860a-a6aa" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7168-e3ec-ffe5-e1d2" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
+                <infoLink id="3d0c-6c98-bbdd-e5f5" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b311-757b-6936-d389" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="819e-0b1b-215f-71aa" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6426-ee73-1edf-199b" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8564-2a4a-41c5-6626" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54b6-812e-c5d8-ed72" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a203-2854-ef6e-3c81" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="38de-4537-1e67-56ad" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
+                <infoLink id="52ab-4aa5-3396-f3f7" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -8560,16 +8657,12 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="35.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4bb1-b0df-3fa5-e998" name="Armoured Medium Attachment" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a62-d4c5-47e8-a787" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="adc9-b9f1-8696-efcf" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="d881-ee83-3338-31ad" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ad-b0c7-ed49-4e87" type="max"/>
+          </constraints>
           <profiles>
-            <profile id="9de7-d650-181f-bfd3" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+            <profile id="1ddb-b2b7-684e-8463" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -8591,7 +8684,7 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                 <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
               </characteristics>
             </profile>
-            <profile id="6c5a-74c5-ac6c-724d" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+            <profile id="9d06-7cee-5785-d5f0" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
               <characteristics>
                 <characteristic name="RB1" typeId="802b-9ea8-6006-c636">8</characteristic>
                 <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
@@ -8602,27 +8695,27 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
             </profile>
           </profiles>
           <categoryLinks>
-            <categoryLink id="4455-5306-37d8-0dd0" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+            <categoryLink id="71ff-dad6-b0a1-1dfd" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="472c-3025-18a2-3284" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b25b-6189-4c36-74c9" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c0-aaed-4bf7-33dd" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3998-ea8e-e3ad-6250" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be98-fba3-6294-285c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62aa-3f2e-51c5-71c6" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c523-77f8-6ee5-6ab4" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+                <infoLink id="7c3e-f682-bd93-37ef" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="2f6f-0399-5b74-ac0d" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="422b-7640-0051-7215" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f14-11b9-df17-c0b9" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb7-9426-989b-bc5b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="90f0-ac79-0a51-949c" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                <profile id="1639-325e-e622-17f2" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
                   <characteristics>
                     <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
                     <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
@@ -8637,7 +8730,7 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                     <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="d553-d6d5-9bbf-5262" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                <profile id="afef-db8a-1379-8ae9" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
                   <characteristics>
                     <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
                     <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
@@ -8657,13 +8750,13 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6c0d-f543-9dd5-3d25" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="5f6e-432d-858d-d1b3" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce71-2fdc-eab3-6d76" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da28-c47e-462c-0fa1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c86-2ed5-f0b6-ca33" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd9a-442e-3810-e5e4" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="3dde-b6a7-bd87-90d7" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+                <infoLink id="e836-0a09-4360-42c5" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -8671,21 +8764,21 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="43af-7bbb-9364-787c" name="Mk" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1c47-8baf-db5a-0942" name="Mk" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72d7-7681-dc36-05b9" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d2d-e920-8a00-0ecb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b63-19a6-8945-1c9b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25df-9715-2e6d-d3b1" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="c2f7-aac9-73e9-c270" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="be86-4198-1f35-5db7" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
                   <selectionEntries>
-                    <selectionEntry id="4bbe-6b34-a489-73f2" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="f2c6-7100-ae33-3968" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a6f-bae0-28b6-624b" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ff-d954-bc14-c2b5" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4370-1723-3a65-123a" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28d9-dc0d-9216-c606" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="ba2d-7376-1156-4110" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                        <infoLink id="0f6a-4299-371d-e2b6" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -8696,9 +8789,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                     <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="40df-d894-5dea-9d05" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="873d-e32f-4281-b741" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="a262-a69e-143b-341d" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                    <profile id="34be-380f-1a2b-01ae" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
                       <characteristics>
                         <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
                         <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
@@ -8709,13 +8802,13 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                     </profile>
                   </profiles>
                   <selectionEntries>
-                    <selectionEntry id="edf7-c202-e8c8-c714" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="0967-cef3-445a-3d5a" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63e-6d36-f586-ee3f" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b47-2491-e863-c574" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d46-b867-97de-c569" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3c5-6522-1dd5-1799" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="bbd5-3d81-05ba-d6be" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                        <infoLink id="42e2-965d-d079-f7a0" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -8726,27 +8819,27 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                     <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="0c76-3a0e-8a2f-2352" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="cb77-c686-2a38-7b68" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
                   <selectionEntries>
-                    <selectionEntry id="f97b-ec17-c93a-ff3b" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="c612-4d68-375f-e09b" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9000-5bf3-b286-dd14" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5809-7573-20e1-ef4a" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1fa-34d6-ab6d-b4e5" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e0a-12a0-c76a-57d5" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="f8f1-a201-2db6-eadf" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                        <infoLink id="2cb9-890f-a972-37eb" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="9fe0-1fc5-744b-2ffe" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="40fd-2a05-bc37-b02d" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b009-59df-b49b-0ddb" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c9e-1de2-1e9f-dcc3" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7e6-28b0-5915-e901" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e7a-74ca-8549-2a45" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="766f-f43f-00be-d232" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                        <infoLink id="6308-d6ab-d47a-3d9f" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -8761,13 +8854,23 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="b1ca-5d66-e6ed-0237" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+            <entryLink id="990d-5f84-8d55-b392" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="90.0"/>
           </costs>
         </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4bb1-b0df-3fa5-e998" name="Armoured Medium Attachment" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a62-d4c5-47e8-a787" type="max"/>
+      </constraints>
+      <selectionEntries>
         <selectionEntry id="a42b-1bb5-29eb-911d" name="Steward" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf86-32b8-a2cc-b7a1" type="max"/>
+          </constraints>
           <profiles>
             <profile id="be10-b4b3-30e0-b129" name="Steward" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
               <characteristics>
@@ -8845,9 +8948,12 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="95.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7a53-e793-2992-16d1" name="Baronet" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="e353-df48-4e91-a737" name="Baronet" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="895c-56db-131a-33c5" type="max"/>
+          </constraints>
           <profiles>
-            <profile id="331e-9f89-f179-0732" name="Baronet" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+            <profile id="bada-2db9-f3d9-b889" name="Baronet" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
               <characteristics>
                 <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
                 <characteristic name="CR" typeId="7cb5-a210-0d98-7358">6</characteristic>
@@ -8864,48 +8970,48 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="2e23-2327-0329-c861" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="8e82-d43d-a90d-a67b" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcfc-439a-3d99-bf40" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1f9-f31f-90c6-9ef8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1203-5bf8-cc1d-64d8" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b3a-232e-b535-669d" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="2967-7cd6-9cbe-d45e" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+                <infoLink id="bc76-bb31-e085-5aac" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ce19-cf63-4d3f-bb02" name="Combat Deployment (KoB Infantry, 1)" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="c37a-e80d-9513-aa70" name="Combat Deployment (KoB Infantry, 1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4f0-eadd-940d-a2c6" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ea-4786-31eb-03c3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a03-3b6a-c32f-5aea" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab21-321c-e96f-e6d7" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="98c7-0b87-a297-ccea" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                <infoLink id="3dc5-2644-f95c-7b13" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry id="ee46-c73a-9659-c762" name="Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="5a2c-fcff-7ad7-4feb" name="Infantry" hidden="false" collective="false" import="true" type="upgrade">
                   <selectionEntries>
-                    <selectionEntry id="23d2-eb37-4cd8-107b" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
+                    <selectionEntry id="5823-8115-aafc-9fba" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="429e-4e20-c475-9d3c" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e89-83af-3039-388d" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1edf-89c7-bae1-ec99" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fc1-b040-28d2-20d2" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="413e-efa7-f05f-0eec" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
+                        <infoLink id="52bc-a582-0d2c-5800" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="e8f5-efdc-4ef6-6bb2" name="Difficult Target" hidden="false" collective="true" import="true" type="upgrade">
+                    <selectionEntry id="10d7-8ff0-07a3-4dd5" name="Difficult Target" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a75d-0cfa-3767-0b6f" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70a8-4c18-bcf5-4846" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e648-f194-c414-13c5" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d99-d88b-2435-93e8" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="3fe1-c032-85cb-4f47" name="Difficult Target" hidden="false" targetId="e9bf-df2e-b612-0319" type="rule"/>
+                        <infoLink id="4eed-c85c-6694-de91" name="Difficult Target" hidden="false" targetId="e9bf-df2e-b612-0319" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -8913,15 +9019,15 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
-                    <selectionEntryGroup id="d2b2-b3c6-9651-9c4d" name="Infantry Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="f6a1-4294-926e-0dd1">
+                    <selectionEntryGroup id="5594-4f99-e10d-5c7d" name="Infantry Type" hidden="false" collective="false" import="true">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ded-dd4c-c73f-bba6" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bc2-4e6d-b0cb-098e" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d17d-66de-65d2-da57" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d2f-f7dd-5431-5715" type="min"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry id="f6a1-4294-926e-0dd1" name="Reconnaissance Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="2b29-9a87-e250-6e37" name="Reconnaissance Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
                           <profiles>
-                            <profile id="bf0f-c79b-c950-91d6" name="Reconnaissance Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                            <profile id="89b0-2de6-e85d-c524" name="Reconnaissance Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
                               <characteristics>
                                 <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
                                 <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
@@ -8938,23 +9044,23 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             </profile>
                           </profiles>
                           <selectionEntryGroups>
-                            <selectionEntryGroup id="38b1-ef88-93d5-876a" name="Spotter" hidden="false" collective="false" import="true">
+                            <selectionEntryGroup id="49eb-5039-81bb-b809" name="Spotter" hidden="false" collective="false" import="true">
                               <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aab3-de32-073b-da8c" type="max"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ad-7e6a-58c0-df50" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d988-6060-2a6c-8b39" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cb7-0830-9fcb-11e5" type="min"/>
                               </constraints>
                               <selectionEntries>
-                                <selectionEntry id="368c-f0f9-8f28-f203" name="Spotter (16&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                                <selectionEntry id="8ba7-ddd5-18f1-3eed" name="Spotter (16&quot;)" hidden="false" collective="false" import="true" type="upgrade">
                                   <infoLinks>
-                                    <infoLink id="d324-29f5-bf4b-4229" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                                    <infoLink id="82f8-6070-55bd-a83d" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
                                   </costs>
                                 </selectionEntry>
-                                <selectionEntry id="48d6-8f8d-8755-8432" name="Spotter (24&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                                <selectionEntry id="cc33-03b6-5130-2538" name="Spotter (24&quot;)" hidden="false" collective="false" import="true" type="upgrade">
                                   <infoLinks>
-                                    <infoLink id="0fff-7dff-3ca5-40df" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                                    <infoLink id="0a24-9ddc-ed51-5d52" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
                                   </infoLinks>
                                   <costs>
                                     <cost name="Points" typeId="4075-4471-be6e-fc5a" value="5.0"/>
@@ -8967,9 +9073,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="7212-2005-5ff7-b7b5" name="Line Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="c7dc-f4de-e1fd-1931" name="Line Infantry Company" hidden="false" collective="false" import="true" type="upgrade">
                           <profiles>
-                            <profile id="0cb8-2ee8-5efb-4a9a" name="Line Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                            <profile id="776d-5a12-5555-3f27" name="Line Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
                               <characteristics>
                                 <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
                                 <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
@@ -8989,9 +9095,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="5.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="2fe4-9aeb-6a13-5f54" name="Assault Infantry Company" hidden="false" collective="false" import="true" type="model">
+                        <selectionEntry id="7aa1-dfda-6230-9f5c" name="Assault Infantry Company" hidden="false" collective="false" import="true" type="model">
                           <profiles>
-                            <profile id="2950-592d-6cc5-b702" name="Assault Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                            <profile id="12e3-42b1-1722-a529" name="Assault Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
                               <characteristics>
                                 <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
                                 <characteristic name="CR" typeId="7cb5-a210-0d98-7358">5</characteristic>
@@ -9008,13 +9114,13 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             </profile>
                           </profiles>
                           <selectionEntries>
-                            <selectionEntry id="fd07-385d-c79a-c763" name="Sustained Assault (2)" hidden="false" collective="true" import="true" type="upgrade">
+                            <selectionEntry id="b9cd-c7b0-25b4-fe02" name="Sustained Assault (2)" hidden="false" collective="true" import="true" type="upgrade">
                               <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e20-9787-c76a-74d0" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b27b-aa74-87f9-29b3" type="max"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4886-24b0-1da7-a340" type="min"/>
+                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c72-b3f1-115d-0f40" type="max"/>
                               </constraints>
                               <infoLinks>
-                                <infoLink id="eaf1-f34d-c35e-27f8" name="Sustained Assault (X)" hidden="false" targetId="ee4b-5351-cd62-66f2" type="rule"/>
+                                <infoLink id="7b1b-54de-57cf-dffb" name="Sustained Assault (X)" hidden="false" targetId="ee4b-5351-cd62-66f2" type="rule"/>
                               </infoLinks>
                               <costs>
                                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -9025,7 +9131,24 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
                           </costs>
                         </selectionEntry>
-                        <selectionEntry id="4488-2a50-544e-bdff" name="Engineering Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                        <selectionEntry id="60b9-274c-9b0a-a5bc" name="Engineering Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                          <profiles>
+                            <profile id="d3c5-e4ba-e16c-03fc" name="Engineer Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                              <characteristics>
+                                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
+                                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
+                                <characteristic name="MV" typeId="b607-e989-521e-4868">5&quot;, Min=0&quot;</characteristic>
+                                <characteristic name="HP" typeId="e025-2c15-1504-e36e">3</characteristic>
+                                <characteristic name="AP" typeId="a688-ba94-12bb-b548">3</characteristic>
+                                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">1</characteristic>
+                                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">-</characteristic>
+                                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">-</characteristic>
+                                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Tiny Armoured Repair Infantry</characteristic>
+                                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
                           <costs>
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="5.0"/>
                           </costs>
@@ -9042,25 +9165,25 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="09f4-b028-fc42-e200" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="4fb8-bdf4-f8ce-c93e" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f448-2e53-66f2-6ff5" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4982-5939-c7a0-a63a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b4-f931-e6f6-e8f5" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cbc-df87-5f08-c490" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="a4c2-1977-aa11-7f4e" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
+                <infoLink id="9470-0701-e9b7-66bd" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e9c1-4340-4d4c-9b01" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="102a-8249-72c2-fa60" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20d5-94d0-c175-b19c" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d94-ec6e-f889-2034" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8b-aec5-634b-1d5d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2962-17ed-c2b1-bb1a" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="c574-8d96-73ca-48b5" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
+                <infoLink id="25c4-70e0-0880-e316" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
@@ -9071,6 +9194,209 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="35.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="e651-de33-2eac-e1d7" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e5-77df-14f6-8dcc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6aa1-f80e-a27f-d2f8" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95a4-0129-9ba8-280b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fae2-4600-1a18-a747" name="Lysander P/S Broadsides (S)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+              <characteristics>
+                <characteristic name="RB1" typeId="802b-9ea8-6006-c636">8</characteristic>
+                <characteristic name="RB2" typeId="4dac-6125-5cee-b031">7</characteristic>
+                <characteristic name="RB3" typeId="2409-fa52-7467-403a">4</characteristic>
+                <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">2</characteristic>
+                <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">P/S Broadside</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="e3a0-e633-6e5f-92f2" name="New CategoryLink" hidden="false" targetId="50c1-8fb3-4272-8764" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="be0f-28e8-c548-3c37" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="015a-3028-d476-1067" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2165-f4cd-f25d-5e03" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c089-5144-1843-689d" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ce33-ae8d-28bf-1faf" name="Regular Crew" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c40-4736-79c4-e1df" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="23b5-7a81-52cf-ce79" name="Sovereign Class Landship (Stoic)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">5</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">8</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">7</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">6</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">5</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">5</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Stoic</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="7184-71fe-0ba5-9363" name="Lysander Class Landship (Regular)" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                  <characteristics>
+                    <characteristic name="DR" typeId="b627-0ae7-77ae-af94">4</characteristic>
+                    <characteristic name="CR" typeId="7cb5-a210-0d98-7358">7</characteristic>
+                    <characteristic name="MV" typeId="b607-e989-521e-4868">6&quot;, Min=0&quot;</characteristic>
+                    <characteristic name="HP" typeId="e025-2c15-1504-e36e">5</characteristic>
+                    <characteristic name="AP" typeId="a688-ba94-12bb-b548">5</characteristic>
+                    <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">4</characteristic>
+                    <characteristic name="CC" typeId="a717-a7af-0bd3-411b">2</characteristic>
+                    <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">4</characteristic>
+                    <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Large Capital Armoured</characteristic>
+                    <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">Large, Limit=2&quot;</characteristic>
+                    <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Regular</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6d66-5c01-1862-e6f0" name="Attachment (KoB, Armoured, 1)" hidden="false" collective="true" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a37-cf6c-40f8-36bb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="600f-0fe1-c675-cfa1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4802-fe9f-6419-6af3" name="Attachment (Nation, Type, Value)" hidden="false" targetId="7ab0-bd0b-771f-1efa" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="86e4-926a-1770-b2ac" name="Mk" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1327-e209-e5d3-c5db" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6936-af91-8094-e7ca" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="8462-28f4-98ee-6c28" name="Mk1" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="f882-5269-e266-40a2" name="Combat Deployment (Engineer Infantry, 2)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c47-8398-7ba3-8d57" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45e6-2718-9b3e-3173" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="7dcb-c72b-a5b9-0c9a" name="Combat Deployment (Models, Value)" hidden="false" targetId="bde5-3d6b-f9ba-4afa" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="20.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9554-88cd-044d-4071" name="Mk2" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="4cd4-d190-4f39-d427" name="Lysander Mortar (P)" hidden="false" typeId="a4c1-2849-a677-19c7" typeName="Gun">
+                      <characteristics>
+                        <characteristic name="RB1" typeId="802b-9ea8-6006-c636">10</characteristic>
+                        <characteristic name="RB2" typeId="4dac-6125-5cee-b031">10</characteristic>
+                        <characteristic name="RB3" typeId="2409-fa52-7467-403a">6</characteristic>
+                        <characteristic name="RB4" typeId="8e7a-76d4-c37f-1cc3">6</characteristic>
+                        <characteristic name="Arc" typeId="2a94-ce3b-1875-e639">270 Fore</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry id="a3f1-a37c-52b0-5e5f" name="Devastating (Mortar Battery)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c507-8e81-a8f6-ccae" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8b-2762-af70-cb35" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="0840-1a59-6d6f-36dc" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5414-ea8d-1a8a-f1f3" name="Mk3" hidden="false" collective="false" import="true" type="upgrade">
+                  <selectionEntries>
+                    <selectionEntry id="e74a-a0df-a5b2-3129" name="Spotter (32&quot;)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e77e-5af1-5651-36e1" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2dc-40b5-1b47-8855" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a37d-b1cb-a9d3-0bd9" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b5ee-ee50-5559-8d4f" name="Devastating (Primary of Squad Attached To)" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19f0-6f53-c203-be69" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e6-0b8e-cc98-8f7a" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="680d-c3f8-5add-5be1" name="Devastating (Weapon)" hidden="false" targetId="9c27-0387-0628-e518" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="3828-2b62-368b-c67a" name="Experienced Engineers" hidden="false" collective="false" import="true" targetId="ce5c-b22f-2f62-8c51" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="90.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="cf2f-66e0-c2cf-4326" name="Armoured Small Attachment" hidden="false" collective="false" import="true">
@@ -9079,6 +9405,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
       </constraints>
       <selectionEntries>
         <selectionEntry id="b0ff-9369-9d72-3eec" name="Lysander Class Landship" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3fb-27c0-3fe2-0eac" type="max"/>
+          </constraints>
           <profiles>
             <profile id="285a-52d2-0d4b-4d87" name="Lysander Class Landship" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
               <modifiers>
@@ -9279,6 +9608,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
           </costs>
         </selectionEntry>
         <selectionEntry id="d879-3fe8-6970-027c" name="Baronet" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96a3-a350-6b47-152a" type="max"/>
+          </constraints>
           <profiles>
             <profile id="31fa-0349-5ff0-a3ea" name="Baronet" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
               <characteristics>
@@ -9459,6 +9791,23 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
                           </costs>
                         </selectionEntry>
                         <selectionEntry id="7273-eb59-a8e9-6aa8" name="Engineering Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                          <profiles>
+                            <profile id="a882-3f0b-4865-641c" name="Engineer Infantry" hidden="false" typeId="48ad-7cde-8902-7a01" typeName="Ship">
+                              <characteristics>
+                                <characteristic name="DR" typeId="b627-0ae7-77ae-af94">3</characteristic>
+                                <characteristic name="CR" typeId="7cb5-a210-0d98-7358">4</characteristic>
+                                <characteristic name="MV" typeId="b607-e989-521e-4868">5&quot;, Min=0&quot;</characteristic>
+                                <characteristic name="HP" typeId="e025-2c15-1504-e36e">3</characteristic>
+                                <characteristic name="AP" typeId="a688-ba94-12bb-b548">3</characteristic>
+                                <characteristic name="AA" typeId="bdf3-1a5c-dbdd-0c38">1</characteristic>
+                                <characteristic name="CC" typeId="a717-a7af-0bd3-411b">-</characteristic>
+                                <characteristic name="IR" typeId="987a-25a7-ab8a-4fce">-</characteristic>
+                                <characteristic name="Class" typeId="8ea3-72cc-a10a-f3fd">Tiny Armoured Repair Infantry</characteristic>
+                                <characteristic name="Turn Arc" typeId="d4fd-f8d5-7016-c5c5">360</characteristic>
+                                <characteristic name="Crew Type" typeId="6805-38e1-82a1-e702">Defensive</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
                           <costs>
                             <cost name="Points" typeId="4075-4471-be6e-fc5a" value="5.0"/>
                           </costs>
