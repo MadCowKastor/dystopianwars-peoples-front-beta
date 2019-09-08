@@ -73,6 +73,9 @@
               <infoLinks>
                 <infoLink id="a070-208a-ff9b-51ca" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8a35-299c-bbfb-ffd2" name="Security Posts (1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -82,6 +85,9 @@
               <infoLinks>
                 <infoLink id="c10c-e1a4-0074-6aae" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -150,6 +156,9 @@
               <infoLinks>
                 <infoLink id="d850-f8bc-fa7e-3001" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4f79-644e-2e7e-3181" name="Security Posts (1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -159,6 +168,9 @@
               <infoLinks>
                 <infoLink id="2f28-f012-fc3a-09ca" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -170,6 +182,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="40ca-2122-e1cd-0f5d" name="Jilin Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -234,6 +249,9 @@
               <infoLinks>
                 <infoLink id="471d-ce8a-ad02-a598" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7f2d-b1b1-3dc8-347b" name="Security Posts (1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -243,6 +261,9 @@
               <infoLinks>
                 <infoLink id="c9d5-cd30-b07a-ce31" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5c30-6725-442c-73c9" name="Strategic Value (25)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -252,6 +273,9 @@
               <infoLinks>
                 <infoLink id="0766-49bd-422f-54fb" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="aa2b-5a28-4ae7-0092" name="Fuel Reserves" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -261,6 +285,9 @@
               <infoLinks>
                 <infoLink id="21fe-4ddc-e015-e2b7" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7dd4-aa50-f476-d3a4" name="Carrier (4, 1x4 Wing)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -270,6 +297,9 @@
               <infoLinks>
                 <infoLink id="93cf-4992-e51a-05f5" name="Carrier (X)" hidden="false" targetId="6941-f613-1cd1-82d0" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -329,6 +359,9 @@
               <infoLinks>
                 <infoLink id="9895-64e7-224b-f23f" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -339,8 +372,14 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c988-7bd7-40c4-0c99" name="Shaanaxi Squadron" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="d853-e6c6-6b73-440c" name="New CategoryLink" hidden="false" targetId="7e1b-131c-d49c-3fb9" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8788-7508-39d3-6360" name="Chi Lóng" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -382,6 +421,9 @@
               <infoLinks>
                 <infoLink id="ecde-1746-ff07-e939" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3d2f-6257-4533-9d34" name="Momentum" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -391,6 +433,9 @@
               <infoLinks>
                 <infoLink id="1495-fc90-7aeb-c774" name="Momentum" hidden="false" targetId="5168-91ee-4c97-8a01" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d3d5-e952-c7af-f280" name="Internal Fury (12&quot;) Generator" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -400,6 +445,9 @@
               <infoLinks>
                 <infoLink id="eb40-2e4e-0dcd-2e1c" name="Fury Generator (X&quot;)" hidden="false" targetId="3295-e58b-d05e-6ad4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -430,6 +478,9 @@
                       <infoLinks>
                         <infoLink id="d0a7-d80a-3d1e-e55f" name="Area Bombardment (Weapon, Value)" hidden="false" targetId="0207-ab3e-9917-ed40" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="bb96-427d-1ee5-03f7" name="Incendiary and Concussive Munitions (Bomb Bay)" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -440,8 +491,14 @@
                         <infoLink id="d14f-a8d7-8903-4f32" name="Incendiary (Weapon)" hidden="false" targetId="1d4d-c6c7-a710-076c" type="rule"/>
                         <infoLink id="d960-1c29-cbb5-d84e" name="Concussive (Weapon)" hidden="false" targetId="3db6-371b-8f56-a809" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="d38c-475b-5b4e-5eea" name="Combat Deployment (Assault Infantry, 1)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
@@ -502,6 +559,9 @@
               <infoLinks>
                 <infoLink id="2029-be4f-fba0-fb8e" name="Momentum" hidden="false" targetId="5168-91ee-4c97-8a01" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e028-4cb2-33c7-7eb9" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -511,6 +571,9 @@
               <infoLinks>
                 <infoLink id="87fa-7b33-df5c-b4ea" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -521,6 +584,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0c98-1669-99f1-fffc" name="Yunnan Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -588,6 +654,9 @@
               <infoLinks>
                 <infoLink id="8cb4-2b04-9b3c-7f2e" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ffd5-af1d-4a99-8cd3" name="Isolated Systems (4+)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -597,6 +666,9 @@
               <infoLinks>
                 <infoLink id="9c1d-ef20-7b81-9c1e" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="bc53-b6b2-091d-d08d" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -606,6 +678,9 @@
               <infoLinks>
                 <infoLink id="0ab0-f662-c3ec-719f" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1897-a891-b903-04e1" name="Strategic Value (100)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -615,6 +690,9 @@
               <infoLinks>
                 <infoLink id="c28f-c3d7-dce6-3672" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="62fb-a732-5443-f4ed" name="Redoutable" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -624,6 +702,9 @@
               <infoLinks>
                 <infoLink id="1ebd-850c-ed7d-4546" name="Redoutable (Weapon/Stat)" hidden="false" targetId="73da-2483-66e5-3834" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f7e7-1f00-737d-04fd" name="Internal Rampart Generator" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -633,6 +714,9 @@
               <infoLinks>
                 <infoLink id="8afa-9f8f-1cb1-7a2c" name="Rampart Generator" hidden="false" targetId="a599-cf10-1664-f233" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1f48-6a50-a360-2e5a" name="Mobile Fortification" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -645,6 +729,9 @@
 This model may also be damaged by Rockets and Torpedoes. This Model is treated as a Fortification in all other respects.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -697,6 +784,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                   <infoLinks>
                     <infoLink id="d2f9-a818-7222-c863" name="Carrier (X)" hidden="false" targetId="6941-f613-1cd1-82d0" type="rule"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="0246-9630-98f6-39a7" name="Carrier (8, 2x4 Wings)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
@@ -759,6 +849,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                           <infoLinks>
                             <infoLink id="b55f-b0a9-25dc-86a5" name="Concussive (Weapon)" hidden="false" targetId="3db6-371b-8f56-a809" type="rule"/>
                           </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                         <selectionEntry id="cb53-4321-1c22-6e69" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
@@ -768,6 +861,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                           <infoLinks>
                             <infoLink id="dff6-c671-ade2-f502" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
                           </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                         <selectionEntry id="6550-4965-af26-ddba" name="Terrifying (Boarding)" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
@@ -777,6 +873,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                           <infoLinks>
                             <infoLink id="796d-bfc5-a657-7544" name="Terrifying (Weapon/Action)" hidden="false" targetId="e6a7-de09-e2e5-3979" type="rule"/>
                           </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                         <selectionEntry id="cfa9-1176-aeb5-b1fd" name="High Angle (Fore Guns)" hidden="false" collective="true" import="true" type="upgrade">
                           <constraints>
@@ -786,8 +885,14 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                           <infoLinks>
                             <infoLink id="e705-7d82-2761-9f73" name="High Angle (Weapon)" hidden="false" targetId="0eed-dccc-d064-fc4d" type="rule"/>
                           </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <costs>
@@ -856,6 +961,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="d0af-7b2a-7214-5317" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="da6e-6c9e-f6e2-8c27" name="Internal Rampart Generator" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -865,6 +973,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="875d-15d5-9531-0a62" name="Rampart Generator" hidden="false" targetId="a599-cf10-1664-f233" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e1ab-bb60-0a6f-6f5f" name="Isolated Systems (4+)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -874,6 +985,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="64bf-0c71-adca-1050" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="824d-9683-cfe2-f70d" name="Mobile Fortification" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -886,6 +1000,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
 This model may also be damaged by Rockets and Torpedoes. This Model is treated as a Fortification in all other respects.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e119-49d7-a8ef-7c99" name="Redoutable" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -895,6 +1012,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="eba1-066e-40a0-9d09" name="Redoutable (Weapon/Stat)" hidden="false" targetId="73da-2483-66e5-3834" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="101d-f0c3-dae7-e15d" name="Security Posts (1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -904,6 +1024,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="252d-a7df-2623-4697" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -916,6 +1039,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b1b7-c10c-badc-cd32" name="Jian Class Battleship" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -974,6 +1100,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="e7b4-be8a-8d74-137b" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2445-d25d-194a-b867" name="Isolated Systems (4+)" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -990,6 +1119,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="e3b3-5370-d2d1-2b55" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0b91-0eab-86bf-b597" name="Security Posts (2)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -999,6 +1131,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="349c-a05c-76d8-ab83" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1035,8 +1170,14 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                   <infoLinks>
                     <infoLink id="134e-f6d0-c06f-1f43" name="Redoutable (Weapon/Stat)" hidden="false" targetId="73da-2483-66e5-3834" type="rule"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c39f-6259-c86f-993e" name="Mk 2" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -1078,6 +1219,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                   <infoLinks>
                     <infoLink id="5943-ef0d-c121-bde9" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -1144,6 +1288,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="b764-4d9e-3966-ab21" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="90f7-27ab-fb2a-88fd" name="Security Posts (1)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1153,6 +1300,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="4911-444d-6d0d-aaca" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="dce3-6985-43d5-3005" name="Strategic Value (25)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1162,6 +1312,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="244c-3e86-61b0-5731" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="162b-fce7-6775-203a" name="Combat patrol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1171,6 +1324,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="04ed-845f-372e-843f" name="Combat Patrol" hidden="false" targetId="3bdc-f480-14ae-ecc8" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="83c5-7cf8-e6e3-092c" name="Defensive Crew" page="" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1261,6 +1417,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="e175-f6ea-6c5a-2f00" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1b94-a6ec-e809-1b9f" name="Security Posts (1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1270,6 +1429,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="7cf6-5a31-739e-6e29" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1281,6 +1443,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2703-cf0a-57d9-db81" name="Chui Class Support Cruiser" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1345,6 +1510,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="8952-de8b-09e1-981c" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9d4f-bc81-d1ff-6fc0" name="Security Posts (1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1354,6 +1522,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="bfc6-e23c-4872-ba1b" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9bd2-ed87-d5a1-fd04" name="Strategic Value (25)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1363,6 +1534,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="167f-1b00-2006-a63a" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="12c4-17dd-fecb-cec6" name="Fuel Reserves" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1372,6 +1546,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="2bd6-9268-b98c-4156" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="eeb6-7588-5519-9562" name="Carrier (4, 1x4 Wing)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1381,6 +1558,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="4ded-915f-ff2b-612d" name="Carrier (X)" hidden="false" targetId="6941-f613-1cd1-82d0" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1392,6 +1572,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9b97-04f4-21bd-6399" name="Dao Class Cruiser" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1456,6 +1639,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="b53d-994c-1d6b-391b" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e86e-91e5-be32-2294" name="Security Posts (1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1465,6 +1651,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="6d86-5b16-0ca2-0b26" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1476,6 +1665,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ac36-7026-1a1a-47e1" name="Yue Class Destroyer" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1531,6 +1723,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="b284-ff50-9265-f2b0" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6325-9644-06c8-a3a1" name="Pack Tactics (Flamethrower, +1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1540,6 +1735,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="397f-af3e-6f1c-8695" name="Pack Tactics (Weapon, +X)" hidden="false" targetId="8e7d-ff3e-8176-1763" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1550,6 +1748,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3bc4-bb3a-89c9-9d80" name="Nu Class Frigate" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1605,6 +1806,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="9103-c3c9-d8e7-ca5f" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1615,6 +1819,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2d61-2c00-352e-a48f" name="Feilong Class Sky Fortress" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1673,6 +1880,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="ed67-188a-e2be-52d9" name="Carrier (X)" hidden="false" targetId="6941-f613-1cd1-82d0" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8baa-d71c-7a1d-c05f" name="Fuel Reserves" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1682,6 +1892,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="5949-76a1-3195-f42f" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c39f-fd7a-f700-b4e1" name="Isolated Systems (4+)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1691,6 +1904,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="aabf-90ad-c211-3ed1" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cdb6-5056-9d0c-0398" name="Rugged Construction (2)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1700,6 +1916,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="1d20-35a2-f6ac-9799" name="Rugged Construction (X)" hidden="false" targetId="6db0-9578-1c9b-164e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a2d5-037f-6ea4-5023" name="Security Posts (2)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1709,6 +1928,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="c9aa-7090-7ed6-f7b7" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2671-f2bd-e6b8-5a95" name="Strategic Value (50)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1718,6 +1940,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="aaae-8bf3-54cf-7389" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2f1b-af29-1f0f-aac5" name="Internal Fury (12&quot;) Generator" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1727,6 +1952,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="002f-cb68-3c24-7885" name="Fury Generator (X&quot;)" hidden="false" targetId="3295-e58b-d05e-6ad4" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -1781,6 +2009,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="5e08-9d19-deee-0bb4" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5f63-3913-4c05-38ef" name="Momentum" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1790,6 +2021,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="592c-1477-8150-a569" name="Momentum" hidden="false" targetId="5168-91ee-4c97-8a01" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8b8f-59f7-9f24-e65d" name="Internal Fury (12&quot;) Generator" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1799,6 +2033,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="d457-7673-307e-5dd5" name="Fury Generator (X&quot;)" hidden="false" targetId="3295-e58b-d05e-6ad4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
@@ -1829,6 +2066,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                       <infoLinks>
                         <infoLink id="3a99-f7f3-38c0-b698" name="Area Bombardment (Weapon, Value)" hidden="false" targetId="0207-ab3e-9917-ed40" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="5ee7-4953-256e-eb2d" name="Incendiary and Concussive Munitions (Bomb Bay)" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -1839,8 +2079,14 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                         <infoLink id="ef52-8b10-02ec-1efb" name="Incendiary (Weapon)" hidden="false" targetId="1d4d-c6c7-a710-076c" type="rule"/>
                         <infoLink id="ee0c-435d-c5ea-bcbe" name="Concussive (Weapon)" hidden="false" targetId="3db6-371b-8f56-a809" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="45af-8311-021a-b96a" name="Combat Deployment (Assault Infantry, 1)" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
@@ -1862,6 +2108,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9102-738b-85c7-cd7b" name="Luxing Class Air Bombard" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1917,6 +2166,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="d087-dc0b-6f80-9626" name="Momentum" hidden="false" targetId="5168-91ee-4c97-8a01" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d659-2105-46d8-7b03" name="Area Bombardment (Bombard, 1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1926,6 +2178,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="446c-9936-f01f-b90e" name="Area Bombardment (Weapon, Value)" hidden="false" targetId="0207-ab3e-9917-ed40" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="85c4-93d1-56fd-481f" name="Concussive Munitions (Bomb Bay &amp; Bombard)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1935,6 +2190,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="9123-313d-a431-5857" name="Concussive (Weapon)" hidden="false" targetId="3db6-371b-8f56-a809" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7228-cf9b-630a-5ac2" name="Spotter (16&quot;)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -1944,6 +2202,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="6aac-4899-49a4-4449" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -1951,6 +2212,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bb2b-a790-8e1e-4ccd" name="Zhùlóng Class Small Interceptor" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1997,6 +2261,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="b116-6355-ed7d-c63a" name="Momentum" hidden="false" targetId="5168-91ee-4c97-8a01" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="37d3-5f34-6636-2582" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2006,6 +2273,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="00ca-71fb-cc40-08d0" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2016,6 +2286,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9568-5e88-4da7-3e4b" name="CF-SAS" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2218,6 +2491,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="1405-ba83-a86b-4dcc" name="Carrier (X)" hidden="false" targetId="6941-f613-1cd1-82d0" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0a7a-0ed9-693e-5577" name="Isolated Systems (4+)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2227,6 +2503,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="e1c0-c4d0-4de2-424f" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e5d8-9090-f8b5-8958" name="Fuel Reserves" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2236,6 +2515,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="7fbc-1ca1-6608-e7a9" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="bc8a-5f6b-76b5-bdbb" name="Security Posts (2)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2245,6 +2527,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="0677-928b-56aa-d916" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3fff-3a3b-43ed-0902" name="Strategic Value (50)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2254,6 +2539,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="7fef-ca91-4a65-fcf1" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b07e-a4f6-1952-cc52" name="Defensive Crew" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2338,6 +2626,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="b8dd-6c46-d224-825f" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3f02-de1d-8bc1-84a8" name="Isolated Systems (4+)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2347,6 +2638,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="dae6-b24c-c611-fd43" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3ba2-4a85-53e8-4cbe" name="Strategic Value (25)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2356,6 +2650,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="1c1d-b587-3b46-ecb0" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8e6c-473a-185e-108b" name="Internal Sonic (16&quot;) Generator" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2365,6 +2662,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="3209-e2d7-1727-81d5" name="Sonic Generator (X&quot;)" hidden="false" targetId="076e-5959-12df-2da2" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4a54-6887-f795-58f0" name="Crushing Impact (Boarding)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2374,6 +2674,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="058e-b55f-c54f-6cb8" name="Crushing Impact (Weapon/Action)" hidden="false" targetId="807b-f1b5-a2d6-b496" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="83af-2740-cfdc-fb7e" name="Hull Breaker (Boarding, D3+1)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2383,6 +2686,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="dbe6-ad2f-99fe-239d" name="Hull Breaker (Weapon/Action, X)" hidden="false" targetId="de2c-bfdf-ae1c-8f4a" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7b69-7486-47cb-240f" name="Terrifying (Boarding)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2392,6 +2698,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="e5e0-8399-a65f-2472" name="Terrifying (Weapon/Action)" hidden="false" targetId="e6a7-de09-e2e5-3979" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2457,6 +2766,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="6858-8f14-2326-1666" name="Crushing Impact (Weapon/Action)" hidden="false" targetId="807b-f1b5-a2d6-b496" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8849-06b8-e5c0-6fcb" name="Fuel Reserves" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2466,6 +2778,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="9131-7a25-3252-b207" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="09a0-1555-6f42-eaf7" name="Isolated Systems (4+)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2475,6 +2790,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="5ef2-b9b4-8f97-c0bb" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e8a2-1d3e-68cc-9e4b" name="Terrifying (Boarding)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2484,6 +2802,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="4164-96db-b5e8-bae3" name="Terrifying (Weapon/Action)" hidden="false" targetId="e6a7-de09-e2e5-3979" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7b40-65f4-9382-d194" name="Internal Guardian (2, 8&quot;, Protective=1) Generator" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2493,6 +2814,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="3d9e-a154-c288-1702" name="Guardian (X, Y, Protective=Z)" hidden="false" targetId="6fa6-4cb7-3ddb-e00c" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b2d2-8b05-4231-f886" name="All-Terrain" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2502,6 +2826,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="1dbc-d8af-06b2-6ccc" name="All-Terrain" hidden="false" targetId="c9a0-3a3b-0fb0-bc36" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2514,6 +2841,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3405-d5f2-9bdd-a92e" name="Chao Feng Class Bombard" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2560,6 +2890,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3a0c-11b2-7b8b-cb57" name="Chiwen Class Medium Tank" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2606,6 +2939,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="5205-45e1-d634-59f3" name="Spotter (X&quot;)" hidden="false" targetId="c859-3bb0-726d-6a0e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2617,6 +2953,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e8ef-7875-a5e7-e2c5" name="Fúsh ī Class Small Robot" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2663,6 +3002,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="7cf5-a22e-4fa1-9a16" name="Concussive (Weapon)" hidden="false" targetId="3db6-371b-8f56-a809" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ae68-5ec5-55f7-8938" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2672,6 +3014,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="2de6-0a96-61d2-bf6b" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4ad1-d5c0-9d22-9749" name="Terrifying (Boarding)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2681,6 +3026,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="90cb-a4fc-6fcd-6235" name="Terrifying (Weapon/Action)" hidden="false" targetId="e6a7-de09-e2e5-3979" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ce2d-5c78-00b6-1c0e" name="High Angle (Fore Guns)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2690,6 +3038,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="c1a6-65e1-3e92-64e8" name="High Angle (Weapon)" hidden="false" targetId="0eed-dccc-d064-fc4d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
@@ -2697,6 +3048,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e146-e714-a698-329d" name="Yazi Class Small Tank" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -2743,6 +3097,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="74fb-6d71-de82-0361" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4a16-ad0b-02b6-3bf2" name="Elusive Target" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -2752,6 +3109,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="ec8b-4a72-75b9-8f4a" name="Elusive Target" hidden="false" targetId="dbea-407f-72b3-a6e4" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2762,6 +3122,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a8ae-29f9-8129-d731" name="Zhanmadao Class Dreadnought Bastion" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2820,6 +3183,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="85c9-5ff7-e0a3-dcb2" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8ce8-fa9c-3b3e-2519" name="Isolated Systems (4+)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2829,6 +3195,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="bfdc-9b42-f19e-b0cf" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4ec7-2ad2-aa91-ba02" name="Security Posts (3)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2838,6 +3207,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="b8a9-9b41-af48-e823" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5571-a906-3c14-7f01" name="Strategic Value (100)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2847,6 +3219,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="126c-60c8-58a4-2601" name="Strategic Value (X)" hidden="false" targetId="0041-8bc8-fbaa-0aec" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0479-886a-5a14-e118" name="Redoutable" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2856,6 +3231,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="6588-a17d-b251-3742" name="Redoutable (Weapon/Stat)" hidden="false" targetId="73da-2483-66e5-3834" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="986e-dc19-d490-cc89" name="Internal Rampart Generator" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2865,6 +3243,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           <infoLinks>
             <infoLink id="2737-429d-e5ab-3492" name="Rampart Generator" hidden="false" targetId="a599-cf10-1664-f233" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a066-83d5-4de9-4c27" name="Mobile Fortification" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2877,6 +3258,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
 This model may also be damaged by Rockets and Torpedoes. This Model is treated as a Fortification in all other respects.</description>
             </rule>
           </rules>
+          <costs>
+            <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2929,6 +3313,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="a148-6c5e-afa0-f7be" name="Carrier (X)" hidden="false" targetId="6941-f613-1cd1-82d0" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1842-33a8-4e9f-d3fb" name="Carrier (8, 2x4 Wings)" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -2991,6 +3378,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                       <infoLinks>
                         <infoLink id="7c5c-54bd-93b8-45e4" name="Concussive (Weapon)" hidden="false" targetId="3db6-371b-8f56-a809" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="6ba1-643a-c0c7-a9d2" name="Small Target" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -3000,6 +3390,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                       <infoLinks>
                         <infoLink id="bfd2-e5cb-9ee5-44a3" name="Small Target" hidden="false" targetId="12d3-95b2-9c6b-cb14" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="bc0d-f8d5-d75e-7e30" name="Terrifying (Boarding)" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -3009,6 +3402,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                       <infoLinks>
                         <infoLink id="b1c4-5a51-07e4-5c84" name="Terrifying (Weapon/Action)" hidden="false" targetId="e6a7-de09-e2e5-3979" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="32f5-bbb8-9b5c-bcea" name="High Angle (Fore Guns)" hidden="false" collective="true" import="true" type="upgrade">
                       <constraints>
@@ -3018,8 +3414,14 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
                       <infoLinks>
                         <infoLink id="7409-a5b4-a614-0dde" name="High Angle (Weapon)" hidden="false" targetId="0eed-dccc-d064-fc4d" type="rule"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
+                  <costs>
+                    <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -3093,6 +3495,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="1ad7-db1a-6b5a-ec01" name="Fuel Reserves" hidden="false" targetId="3f8f-5581-fcef-2dee" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="43ff-c3ec-3c8b-1cf4" name="Internal Rampart Generator" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -3102,6 +3507,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="3f8c-b164-cfc6-b5e7" name="Rampart Generator" hidden="false" targetId="a599-cf10-1664-f233" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="bccf-7a2a-0d56-9de4" name="Isolated Systems (4+)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -3111,6 +3519,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="896e-abd8-43f7-f0d2" name="Isolated Systems (X)" hidden="false" targetId="15a7-7c5a-f156-e9fa" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7c87-7685-21a7-0950" name="Mobile Fortification" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -3123,6 +3534,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
 This model may also be damaged by Rockets and Torpedoes. This Model is treated as a Fortification in all other respects.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="edf4-434c-5d37-306e" name="Redoutable" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -3132,6 +3546,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="6666-62c9-3f91-7aad" name="Redoutable (Weapon/Stat)" hidden="false" targetId="73da-2483-66e5-3834" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9630-f655-ada4-38b0" name="Security Posts (1)" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
@@ -3141,6 +3558,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
               <infoLinks>
                 <infoLink id="7db4-bd59-5ea5-c556" name="Security Posts (X)" hidden="false" targetId="5254-1b40-3120-622e" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -3153,6 +3573,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="eedf-6f05-4e78-f10f" name="Foward Landing Field" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -4005,6 +4428,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
       <infoLinks>
         <infoLink id="f15a-f418-e8cc-b07e" name="Rugged Construction (X)" hidden="false" targetId="6db0-9578-1c9b-164e" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cdae-8c3d-74b4-3fd0" name="Incendiary and Concussive Munitions (Bombard-Rockets)" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
@@ -4015,6 +4441,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
         <infoLink id="6945-88b8-07f4-ece0" name="Incendiary (Weapon)" hidden="false" targetId="1d4d-c6c7-a710-076c" type="rule"/>
         <infoLink id="594d-80c3-4913-4650" name="Concussive (Weapon)" hidden="false" targetId="3db6-371b-8f56-a809" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="58a7-a871-ae4d-784f" name="Concussive Munitions (Pirmaries)" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
@@ -4024,6 +4453,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
       <infoLinks>
         <infoLink id="a77b-d782-d2bd-7a21" name="Concussive (Weapon)" hidden="false" targetId="3db6-371b-8f56-a809" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f321-fe79-2adb-f87c" name="Corrosive Munitions (Flamethrowers)" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
@@ -4033,6 +4465,9 @@ This model may also be damaged by Rockets and Torpedoes. This Model is treated a
       <infoLinks>
         <infoLink id="b506-b19e-d22f-7656" name="Corrosive (Weapon)" hidden="false" targetId="2d4a-bda6-6e16-a903" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="95fa-2b82-b7dd-71a6" name="Ace" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
