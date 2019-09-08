@@ -2647,7 +2647,7 @@
     </selectionEntry>
     <selectionEntry id="d1f4-e428-177b-4d62" name="Hawk Class Scout Rotor" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="57f0-a5ce-1972-244c" name="Aerial Medium" hidden="false" targetId="7e1b-131c-d49c-3fb9" primary="false"/>
+        <categoryLink id="57f0-a5ce-1972-244c" name="Aerial Medium" hidden="false" targetId="7e1b-131c-d49c-3fb9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ec9c-b93a-24c2-2f69" name="Hawk" hidden="false" collective="false" import="true" type="model">
@@ -4575,6 +4575,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6610-baac-11c4-ae7f" name="Terrier Class Small Tank" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="083c-829f-c7a5-613a" name="New CategoryLink" hidden="false" targetId="25b7-daaa-f993-6039" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8100-1038-2d5a-24e8" name="Terrier" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -6475,6 +6478,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cb22-b1ad-de5f-fa6a" name="Territorial Patrol Squadron" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -6694,6 +6700,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="14be-7219-f97e-0e80" name="Submerged Hunter Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -6861,6 +6870,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7195-be25-6130-9d2f" name="Armoured Breakthrough Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -6988,6 +7000,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="134b-4bf1-7047-a317" name="Squire Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -7263,6 +7278,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b662-d834-d580-46e0" name="Prince Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -7518,6 +7536,9 @@ When making an Area Bombardment Attack the Large Effect Template is used.</descr
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="4075-4471-be6e-fc5a" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
